@@ -58,10 +58,11 @@ Product.propTypes={
 const ProductWrapper= styled.div`
 .card{
     border-color: transparent;
-    transition: all 0.1s linear;     
+    transition: all 0.1s linear;   
+    background-color: lightgray;  
 }
 .card-footer{
-    background: transparent;
+    background: gray;
     border-top: transparent;
     transition: all 1s linear;    
 }
